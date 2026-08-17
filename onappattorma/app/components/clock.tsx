@@ -34,7 +34,7 @@ export default function Clock() {
   const [hours, rest] = time.split(":");
   
   return (
-    <div className="text-sm font-medium tabular-nums tracking-wide text-white/90 drop-shadow-md">
+    <div className="text-[15px] font-semibold tabular-nums tracking-wide text-white [text-shadow:0_1px_8px_rgba(0,0,0,0.65)]">
       {hours}
       <span className="animate-[blink_1s_infinite]">:</span>
       {rest}
